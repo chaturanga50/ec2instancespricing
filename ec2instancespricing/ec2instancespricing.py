@@ -34,6 +34,7 @@ import re
 import tokenize
 import token
 import json
+import time
 
 try:
     from StringIO import StringIO
@@ -378,6 +379,8 @@ INSTANCES_RESERVED_UTILIZATION_TYPE_BY_URL = {
 }
 
 DEFAULT_CURRENCY = "USD"
+DEFAULT_DATE = time.strftime("%Y/%m/%d")
+DEFAULT_TIME = time.strftime("%H:%M:%S")
 
 
 class ResultsCacheBase(object):
@@ -488,12 +491,16 @@ def get_ec2_instances_prices(urls, type, filter_region=None, filter_instance_typ
     get_specific_instance_type_pattern = (filter_instance_type_pattern is not None)
 
     currency = DEFAULT_CURRENCY
+    nowdate = DEFAULT_DATE
+    nowtime = DEFAULT_TIME
 
     result_regions = []
     result = {
         "config": {
             "currency": currency,
-            "unit": "perhr"
+            "unit": "perhr",
+            "date": nowdate,
+            "time": nowtime
         },
         "regions": result_regions
     }
@@ -754,7 +761,9 @@ def _get_data(args):
     data = {
         "config": {
             "currency": DEFAULT_CURRENCY,
-            "unit": "perhr"
+            "unit": "perhr",
+            "date": DEFAULT_DATE,
+            "time": DEFAULT_TIME
         },
         "regions": list()
     }
