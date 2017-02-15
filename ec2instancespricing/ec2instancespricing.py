@@ -496,12 +496,10 @@ def get_ec2_instances_prices(urls, type, filter_region=None, filter_instance_typ
 
     result_regions = []
     result = {
-        "config": {
-            "currency": currency,
-            "unit": "perhr",
-            "date": nowdate,
-            "time": nowtime
-        },
+        "currency": currency,
+        "unit": "perhr",
+        "date": nowdate,
+        "time": nowtime,
         "regions": result_regions
     }
 
@@ -759,12 +757,10 @@ def _get_args(args):
 
 def _get_data(args):
     data = {
-        "config": {
-            "currency": DEFAULT_CURRENCY,
-            "unit": "perhr",
-            "date": DEFAULT_DATE,
-            "time": DEFAULT_TIME
-        },
+        "currency": DEFAULT_CURRENCY,
+        "unit": "perhr",
+        "date": DEFAULT_DATE,
+        "time": DEFAULT_TIME,
         "regions": list()
     }
 
