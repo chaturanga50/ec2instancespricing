@@ -1,0 +1,1 @@
+{"date": "2018-08-28", "currency": "USD", "regions": [{"region": "us-east-2", "instanceTypes": [{"prices": {"spot": {"hourly": 0.0069, "upfront_perGB": ""}}, "os": "linux", "price": 0.0069, "type": "t2.small", "utilization": "spot"}]}], "unit": "perhr", "time": "16:04:48"}

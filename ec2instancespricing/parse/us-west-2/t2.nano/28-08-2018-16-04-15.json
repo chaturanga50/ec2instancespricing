@@ -1,0 +1,17 @@
+[
+  {
+    "measurement": "spot_pricing",
+    "tags": {
+      "instance_type": "t2.nano",
+      "region": "us-west-2",
+      "currency": "\"USD\"",
+      "unit": "\"perhr\"",
+      "os": "null",
+      "utilization": "null"
+    },
+    "time": "28-08-2018-16-04-15",
+    "fields": {
+      "price": "null"
+    }
+  }
+]

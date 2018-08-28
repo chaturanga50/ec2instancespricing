@@ -1,0 +1,17 @@
+[
+  {
+    "measurement": "spot_pricing",
+    "tags": {
+      "instance_type": "t2.large",
+      "region": "us-east-2",
+      "currency": "\"USD\"",
+      "unit": "\"perhr\"",
+      "os": "\"linux\"",
+      "utilization": "\"spot\""
+    },
+    "time": "28-08-2018-16-04-15",
+    "fields": {
+      "price": "0.0278"
+    }
+  }
+]

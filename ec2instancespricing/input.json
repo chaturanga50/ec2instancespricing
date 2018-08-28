@@ -1,0 +1,13 @@
+[
+    {
+        "measurement": "brushEvents",
+        "tags": {
+            "instance_type": "Carol",
+            "region": "6c89f539-71c6-490d-a28d-6c5d84c0ee2f"
+        },
+        "time": "2018-03-28T8:01:00Z",
+        "fields": {
+            "price": 127
+        }
+    }
+]

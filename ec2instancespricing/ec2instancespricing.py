@@ -380,7 +380,7 @@ INSTANCES_RESERVED_UTILIZATION_TYPE_BY_URL = {
 
 DEFAULT_CURRENCY = "USD"
 DEFAULT_DATE = time.strftime("%Y-%m-%d")
-DEFAULT_TIME = time.strftime("%H-00-00")
+DEFAULT_TIME = time.strftime("%H:%M:%S")
 
 
 class ResultsCacheBase(object):

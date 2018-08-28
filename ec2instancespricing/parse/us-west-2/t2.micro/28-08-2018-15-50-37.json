@@ -1,0 +1,13 @@
+[
+  {
+    "measurement": "spot_pricing",
+    "tags": {
+      "instance_type": "t2.micro",
+      "region": "us-west-2"
+    },
+    "time": "28-08-2018-15-50-37",
+    "fields": {
+      "price": "0.0035"
+    }
+  }
+]
